@@ -46,20 +46,20 @@ This method is implement in `IP_DM_sparse.ipynb`, which allows images with numbe
 ### Results
 :pencil2: Down-sampled version of `images/cat.jpg` and saved image with 10 colors.
 <p align='center'>
-    <img src="results/IP_DM_sparse/cat_downsample.jpg" width="550" />
-    <img src="results/IP_DM_sparse/cat_10color.jpg" width="550" />
+    <img src="results/IP_DM_sparse/cat_downsample.jpg" width="400" />
+    <img src="results/IP_DM_sparse/cat_10color.jpg" width="400" />
 </p>
 
 :pencil2: Down-sampled version of `images/view.jpg` and saved image with 10 colors.
 <p align='center'>
-    <img src="results/IP_DM_sparse/view_downsample.jpg" width="550" />
-    <img src="results/IP_DM_sparse/view_10color.jpg" width="550" />
+    <img src="results/IP_DM_sparse/view_downsample.jpg" width="400" />
+    <img src="results/IP_DM_sparse/view_10color.jpg" width="400" />
 </p>
 
 :pencil2: Down-sampled version of `images/view4.jpg` and saved image with 10 colors.
 <p align='center'>
-    <img src="results/IP_DM_sparse/view4_downsample.jpg" width="550" />
-    <img src="results/IP_DM_sparse/view4_10color.jpg" width="550" />
+    <img src="results/IP_DM_sparse/view4_downsample.jpg" width="400" />
+    <img src="results/IP_DM_sparse/view4_10color.jpg" width="400" />
 </p>
 
 See more results in the `results/IP_DM_sparse` file.
