@@ -82,26 +82,26 @@ By using this method in both ways, image with 4,000,000 pixels can be divided wi
 ### Results
 :pencil2: `images/cat.jpg` and saved image using 10 randomly selected samples and 15 colors.
 <p align='center'>
-    <img src="images/cat.jpg" height="250" />
-    <img src="results/IP_DM_Nystrom_v1/cat_10sam15color.jpg" height="250" />
+    <img src="images/cat.jpg" height="225" />
+    <img src="results/IP_DM_Nystrom_v1/cat_10sam15color.jpg" height="225" />
 </p>
 
 :pencil2: `images/view.jpg` and saved image using 10 randomly selected samples and 15 colors.
 <p align='center'>
-    <img src="images/view.jpg" height="250" />
-    <img src="results/IP_DM_Nystrom_v1/view_10sam15color.jpg" height="250" />
+    <img src="images/view.jpg" height="225" />
+    <img src="results/IP_DM_Nystrom_v1/view_10sam15color.jpg" height="225" />
 </p>
 
 :pencil2: `images/view5.jpg` and saved image using 10 randomly selected samples and 15 colors.
 <p align='center'>
-    <img src="images/view5.jpg" height="250" />
-    <img src="results/IP_DM_Nystrom_v1/view5_10sam15color.jpg" height="250" />
+    <img src="images/view5.jpg" height="225" />
+    <img src="results/IP_DM_Nystrom_v1/view5_10sam15color.jpg" height="225" />
 </p>
 
 :pencil2: `images/view6.jpg` and saved image using 10 randomly selected samples and 15 colors.
 <p align='center'>
-    <img src="images/view6.jpg" height="250" />
-    <img src="results/IP_DM_Nystrom_v2/view6_20sam15color.jpg" height="250" />
+    <img src="images/view6.jpg" height="225" />
+    <img src="results/IP_DM_Nystrom_v2/view6_20sam15color.jpg" height="225" />
 </p>
 
 See more results in the `results/IP_DM_Nystrom_v1` and `results/IP_DM_Nystrom_v2` files.
