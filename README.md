@@ -14,9 +14,7 @@ This project reveals the applications of diffusion maps in image partition and c
 
 
 ## Introduction
-[diffusion maps](https://github.com/yujieho/Diffusion_Maps) is effective in organizing noisy and unordered data.
-
-To get good results for image partition, it gives a posible solution. 
+To get good results for image partition, [diffusion maps](https://github.com/yujieho/Diffusion_Maps), which is effective in organizing noisy and unordered data, gives a posible solution. 
 
 
 ### :round_pushpin: Image partition
@@ -89,7 +87,7 @@ See more results in the `results/IP_DM_sparse` file.
 ## Nyström method
 Approach the eigenvectors of diffusion matrix without computing the entire matrix. 
 
-Implemented in 2 slightly different way, described in `IP_DM_Nystrom_v1.ipynb` and `IP_DM_Nystrom_v2.ipynb`.
+Implemented in 2 different ways, described in `IP_DM_Nystrom_v1.ipynb` and `IP_DM_Nystrom_v2.ipynb`.
 
 Both algorithms compute only a few (no more than 20) randomly picked columns of each matrices.
 
@@ -146,20 +144,12 @@ See more results in the `results/IP_DM_Nystrom_v1` and `results/IP_DM_Nystrom_v2
 
 
 ## Comparison
-For images with number of pixels< 10,000:
+### Images with number of pixels < 10,000
+
 - The Nythöm method is approximately 3,000 times faster compared with the sparse method.
 
 - The Sparse method is more stabilize than the Nythöm method.
 
-For images with number of pixels > 10,000
-
-- The Nythöm method is the only way to implement. 
-
-- The time two Nyström method algorithms take are barely different.
-
-
-
-### Images with number of pixels < 10,000
 
 :pencil2: down-sampled version of `images/view3.jpg`, size of image: 75 x 120, number of colors: 20, number of samples: 7.
 
@@ -171,6 +161,11 @@ For images with number of pixels > 10,000
 
 
 ### Images with number of pixels > 10,000
+
+- The Nythöm method is the only way to implement. 
+
+- The time two Nyström method algorithms take are barely different.
+
 
 :pencil2: `images/cat.jpg`, size of image: 660 * 1100, number of colors: 15, number of samples: 10.
 
