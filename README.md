@@ -32,7 +32,7 @@ Done simultaneously by giving one color to each group after clustering.
 
 
 ### :mag: Difficulty
-The matrices in the diffusion map algorithm are of sizes *nxn*, where *n* is the number of pixels. 
+The matrices in the diffusion map algorithm are of sizes *n* x *n*, where *n* is the number of pixels. 
 
 The computational complexity scales with the size of images, the basic algorithm cannot used in dividing images with over 5,000 pixels.  
 
@@ -43,7 +43,7 @@ I found **3 solutions** to deal with this problem. Described below.
 ## Sparse method
 Construct every matrices that appeared in a sparse version. 
 
-Implemented in `IP_DM_sparse.ipynb`, it allows images with number of pixels no more than 10,000.
+Implemented in `IP-DM-sparse.ipynb`, it allows images with number of pixels no more than 10,000.
 
 
 
@@ -53,8 +53,8 @@ Implemented in `IP_DM_sparse.ipynb`, it allows images with number of pixels no m
 - number of colors: 10
 
 <p align='center'>
-    <img src="results/IP_DM_sparse/cat_downsample.jpg" width="400" />
-    <img src="results/IP_DM_sparse/cat_10color.jpg" width="400" />
+    <img src="results_IP-DM-sparse/cat-downsample.jpg" width="400" />
+    <img src="results_IP-DM-sparse/cat-10color.jpg" width="400" />
 </p>
 
 
@@ -63,8 +63,8 @@ Implemented in `IP_DM_sparse.ipynb`, it allows images with number of pixels no m
 - number of colors: 10
 
 <p align='center'>
-    <img src="results/IP_DM_sparse/view_downsample.jpg" width="400" />
-    <img src="results/IP_DM_sparse/view_10color.jpg" width="400" />
+    <img src="results_IP-DM-sparse/view-downsample.jpg" width="400" />
+    <img src="results_IP-DM-sparse/view-10color.jpg" width="400" />
 </p>
 
 
@@ -73,12 +73,12 @@ Implemented in `IP_DM_sparse.ipynb`, it allows images with number of pixels no m
 - number of colors: 10
 
 <p align='center'>
-    <img src="results/IP_DM_sparse/view4_downsample.jpg" width="400" />
-    <img src="results/IP_DM_sparse/view4_10color.jpg" width="400" />
+    <img src="results_IP-DM-sparse/view4-downsample.jpg" width="400" />
+    <img src="results_IP-DM-sparse/view4-10color.jpg" width="400" />
 </p>
 
 
-See more results in the `results/IP_DM_sparse` file.
+See more results in the `results_IP-DM-sparse` file.
 
 
 
@@ -87,7 +87,7 @@ See more results in the `results/IP_DM_sparse` file.
 ## Nyström method
 Approach the eigenvectors of diffusion matrix without computing the entire matrix. 
 
-Implemented in 2 different ways, described in `IP_DM_Nystrom_v1.ipynb` and `IP_DM_Nystrom_v2.ipynb`.
+Implemented in 2 different ways, described in `IP-DM-Nystrom-v1.ipynb` and `IP-DM-Nystrom-v2.ipynb`.
 
 Both algorithms compute only a few (no more than 20) randomly picked columns of each matrices.
 
@@ -103,7 +103,7 @@ In both ways, image with 4,000,000 pixels can be divided without down-sampling !
 
 <p align='center'>
     <img src="images/cat.jpg" width="400" />
-    <img src="results/IP_DM_Nystrom_v1/cat_10sam15color.jpg" width="400" />
+    <img src="results_IP-DM-Nystrom-v1/cat-10sam15color.jpg" width="400" />
 </p>
 
 
@@ -114,7 +114,7 @@ In both ways, image with 4,000,000 pixels can be divided without down-sampling !
 
 <p align='center'>
     <img src="images/view.jpg" width="400" />
-    <img src="results/IP_DM_Nystrom_v1/view_10sam15color.jpg" width="400" />
+    <img src="results_IP-DM-Nystrom-v1/view-10sam15color.jpg" width="400" />
 </p>
 
 
@@ -125,7 +125,7 @@ In both ways, image with 4,000,000 pixels can be divided without down-sampling !
 
 <p align='center'>
     <img src="images/view5.jpg" width="400" />
-    <img src="results/IP_DM_Nystrom_v1/view5_10sam15color.jpg" width="400" />
+    <img src="results_IP-DM-Nystrom-v1/view5-10sam15color.jpg" width="400" />
 </p>
 
 
@@ -136,10 +136,10 @@ In both ways, image with 4,000,000 pixels can be divided without down-sampling !
 
 <p align='center'>
     <img src="images/view6.jpg" width="400" />
-    <img src="results/IP_DM_Nystrom_v2/view6_20sam15color.jpg" width="400" />
+    <img src="results_IP-DM-Nystrom-v2/view6-20sam15color.jpg" width="400" />
 </p>
 
-See more results in the `results/IP_DM_Nystrom_v1` and `results/IP_DM_Nystrom_v2` files.
+See more results in the `results_IP-DM-Nystrom-v1` and `results_IP-DM-Nystrom-v2` files.
 
 
 
